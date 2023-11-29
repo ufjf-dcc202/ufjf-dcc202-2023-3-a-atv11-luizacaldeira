@@ -10,8 +10,12 @@ const btnAdicionar = document.querySelector('#adicionar');
 const btnLimpar = document.querySelector('#limpar');
 
 atualizarItensDeLista();
-limparLista();
-atualizarItensDeLista();
+
+function limparElementosDaLista(){
+    limparLista();
+    atualizarItensDeLista();
+}
+
 
 
 function atualizarItensDeLista(){
