@@ -7,3 +7,4 @@ const olSaida = document.querySelector('#saida');
 const btnAdicionar = document.querySelector('#adicionar');
 const btnLimpar = document.querySelector('#limpar');
 
+olSaida.innerHTML = "";
